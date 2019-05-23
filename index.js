@@ -6,8 +6,8 @@ function takeANumber(currLine, name) {
   return 'Welcome, ' + name + '. You are number ' + (len) + ' in line.';
 }
 
+let counter = 0;
 function takeATicket(currLine) {
-  let counter = 0;
   counter++;
   currLine.push(counter);
   return 'Welcome to our deli! You\'re number ' + counter;
