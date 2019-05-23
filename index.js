@@ -6,6 +6,7 @@ function takeANumber(currLine, name) {
   return 'Welcome, ' + name + '. You are number ' + (len) + ' in line.';
 }
 
+// immediately invoked functional expressions
 let counter = 0;
 function takeATicket(currLine) {
   counter++;
